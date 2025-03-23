@@ -177,8 +177,8 @@ while sys_on == True:
                 else: 
                     msg_alerta(G_saldo)
             else:
-                if input_saque <= 0:
-
+                if input_saque <= 0.0:
+                    msg_alerta(input_saque)
                 else:
                     msg_alerta(LIMITE_VALOR_SAQUES)
         else:
