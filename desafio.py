@@ -71,7 +71,7 @@ while sys_on == True:
 
         else:
             print(f"""
-                  Você atingiu o seu limite de {LIMITE} saques diários.
+                  Você atingiu o seu limite de {LIMITE_NUMERO_SAQUES} saques diários.
                   Tente novamente amanhã.
                   """)
     elif menu_opcao == "E":
